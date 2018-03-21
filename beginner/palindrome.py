@@ -1,4 +1,4 @@
-x=raw_input("enter the string:")
+x=str(input("enter the string:"))
 y=list(reversed(x))
 z=''.join(y)
 if x==z:
