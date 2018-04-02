@@ -3,4 +3,4 @@ l=[]
 for x in range(n):
     l.append(input())
 l.sort()
-print l[0]
+print l[-1]
